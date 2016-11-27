@@ -6,7 +6,115 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
+    <header class="page-header">
+      <nav class="main-nav">
+        <div class="logo"></div>
+        <div class="burger"></div>
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a href="#">Каталог товаров</a></li>
+          <li class="main-nav__item"><a href="#">Вязание на заказ</a></li>
+          <li class="main-nav__item"><a href="#">Поиск по сайту</a></li>
+          <li class="main-nav__item"><a href="#">Корзина: пока пуста</a></li>
+        </ul>
+      </nav>
+      <h1 class="page-header__title">Милве штучки ручной работы для дома</h1>
+    </header>
+
+    <main class="content">
+      <div class="promo">
+        <div class="promo__item">Предметы интерьера</div>
+        <div class="promo__item">Детские игрушки</div>
+      </div>
+
+      <section class="product">
+        <h2 class="product__title">Вязаные корзинки</h2>
+        <span class="">Товар недели</span>
+        <p class="product__descr">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+        <table class="product__table">
+          <tr class="product__table-row">
+            <td class="product__table-item">Цвет:</td>
+            <td class="product__table-item">"Тифани"/серый</td>
+          </tr>
+          <tr class="product__table-row">
+            <td class="product__table-item">Диаметр:</td>
+            <td class="product__table-item">25 см</td>
+          </tr>
+          <tr class="product__table-row">
+            <td class="product__table-item">Высота:</td>
+            <td class="product__table-item">15 см</td>
+          </tr>
+        </table>
+        <div class="product__image">
+          <img src="#" alt="">
+        </div>
+        <div class="proudct__price">Цена:990руб.</div>
+        <button class="btn btn--order"></button>
+      </section>
+
+      <section class="about-us">
+        <h2 class="about-us__title">Коротко о нас:</h2>
+        <div class="about-us__item">Экологически чистые материалы</div>
+        <div class="about-us__item">Скандинавский стиль по российской цене</div>
+        <div class="about-us__item">Увеличивает лайки на фотографиях</div>
+        <div class="about-us__item">Связано вручную с любовью и умилением</div>
+        <div class="about-us__item">Поддержка отечественного производителя</div>
+        <div class="about-us__item">Поставляется в подарочной упаковке</div>
+      </section>
+
+      <section class="reviews">
+        <h2 class="reviews__title">Отзывы</h2>
+        <p class="reviews__text">
+          Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!
+        </p>
+        <p class="reviews__author">Анастасия Красильникова
+          <span class="reviews__author-login">@misssssiskras</span>
+        </p>
+        <div class="paginator">
+          <div class="paginaror__button  paginaror__button--prev"></div>
+          <div class="paginaror__button  paginaror__button--next"></div>
+        </div>
+        <button class="btn  btn--write"></button>
+      </section>
+
+      <secrion class="contacts">
+        <h3 class="contact__title">Контакты</h3>
+        <table class="contact__table">
+          <tr class="contact__table-row">
+            <td class="contact__table-item">email:</td>
+            <td class="contact__table-item">info@mimimishkashop.ru</td>
+          </tr>
+          <tr class="contact__table-row">
+            <td class="contact__table-item">адрес:</td>
+            <td class="contact__table-item">г. Санкт-Петербург ул. Большая Конюшенная, д. 19/8, офис 101</td>
+          </tr>
+        </table>
+
+      <div class="map">
+      </div>
+      <button class="btn  btn--contact"></button>
+      </secrion>
+    </main>
+
+
+    <footer class="page-footer">
+      <div class="social-block">
+				<ul class="social-block__list">
+				  <li class="social-block__item  social-block__item--insta">
+					  <a class="social-block__link  social-block__link--insta" href="#">Instagram</a>
+				  </li>
+				  <li class="social-block__item  social-block__item--fb">
+					  <a class="social-block__link  social-block__link--fb" href="#">Facebook</a>
+				  </li>
+				  <li class="social-block__item  social-block__item--tw">
+					  <a class="social-block__link  social-block__link--tw" href="#">Twitter</a>
+				  </li>
+			  </ul>
+		  </div>
+
+		  <div class="copyright">
+		    Разработано <img src="@" alt="">
+		  </div>
+    </footer>
 
   </body>
 </html>
